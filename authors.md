@@ -45,7 +45,7 @@
 #### blbns [Github](https://github.com/balabis)
 — **skills:** CSS, JS, ReactJS, NodeJS, ExpressJS, PostgreSQL, Photoshop.
 
-#### JustinTime42
+#### JustinTime42 [Github](https://github.com/JustinTime42)
 — **skills:** HTML, CSS, JS, React, Node, Database
 
 #### Panconpeenga [Github](https://github.com/Panconpeenga)
@@ -77,3 +77,9 @@
 
 #### Daenz [Github] (https://github.com/Daenza)
 -**skills:**HTML, CSS, Bootstrap4, Photoshop.. experience with Nodejs, Express, Mongodb. Javascript still difficult. 
+
+#### JShilling4 [Github](https://github.com/JShilling4)
+— **skills:** HTML, CSS, JS, Python, PHP, React, SQL, a little design. (Can help anywhere needed)
+
+#### RDMammad [Github](https://github.com/rdmammad)
+— **skills:** HTML, CSS (just started the cource, in the learning process)
