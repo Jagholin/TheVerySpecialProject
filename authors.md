@@ -80,3 +80,6 @@
 
 #### JShilling4 [Github](https://github.com/JShilling4)
 — **skills:** HTML, CSS, JS, Python, PHP, React, SQL, a little design. (Can help anywhere needed)
+
+#### RDMammad [Github](https://github.com/rdmammad)
+— **skills:** HTML, CSS (just started the cource, in the learning process)
