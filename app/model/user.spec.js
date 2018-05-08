@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 const {expect} = require("chai");
 const {MongoError} = require("mongodb");
-const User = require("./User");
+const {User} = require("./User");
 // Always connect to local db while testing
 require("./index").connect("mongodb://localhost:27017/survey_app")
 
@@ -12,22 +12,16 @@ describe("user schema test", function() {
 
     // beforeEach() => so that all tests are as independent from each other as possible,
     // we do a bit of a cleanup
-    beforeEach(function(done) {
-        User.deleteMany({}, function(err){
-            if (err){
-                done();
-                return;
-            }
-            done();
-        });
+    beforeEach(function() {
+        return User.deleteAll();
     });
 
     it ("add user with a name to db and read it back", async function() {
         let myUser = new User({name: "Pavel", email:"addr@mail.com", password: "password123"});
         let savedUser = await myUser.save();
-        let foundUsers = await User.find({_id: myUser._id});
+        let foundUsers = await User.findByName("Pavel");
         expect(foundUsers).be.lengthOf(1);
-        expect(foundUsers[0]._id.toString()).be.equal(myUser._id.toString());
+        //expect(foundUsers[0]._id.toString()).be.equal(myUser._id.toString());
     });
 
     it ("do not allow duplicate email", async function() {
